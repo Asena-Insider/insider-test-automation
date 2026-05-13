@@ -11,6 +11,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
+<<<<<<< HEAD
 git push origin main                sh '''
                 python3 -m pip install --upgrade pip
                 python3 -m pip install -r requirements.txt
@@ -24,6 +25,9 @@ git push origin main                sh '''
                 mkdir -p reports
                 mkdir -p screenshots
                 '''
+=======
+                sh 'pip install -r requirements.txt'
+>>>>>>> e6c5d44635db5eee3d7737b545c414bc58b98114
             }
         }
 
