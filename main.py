@@ -1,4 +1,4 @@
 import pytest
 
 if __name__ == "__main__":
-    pytest.main(["-vv"])  # Testleri çalıştır.
+    pytest.main(["-vvvv"])  # Testleri çalıştır.
